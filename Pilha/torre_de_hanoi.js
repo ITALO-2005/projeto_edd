@@ -20,7 +20,7 @@ class Stack {
     }
 }
 
-// 2. Função da Torre de Hanói
+// 2. Função da Torre de Hanoi
 function torreDeHanoi(n, origem, destino, auxiliar) {
     if (n > 0) {
         torreDeHanoi(n - 1, origem, auxiliar, destino);
